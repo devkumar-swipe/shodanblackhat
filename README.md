@@ -96,6 +96,8 @@ python3 blacked.py --query nginx --csv
 
 ---
 
+![image](https://github.com/user-attachments/assets/71870ab6-3119-4898-9ad0-2bd1aeacddc9)
+
 ### 🧑‍💻 Developed By
 
 **Ved Kumar**
