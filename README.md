@@ -25,7 +25,7 @@
 ### 💪 Installation
 
 ```bash
-git clone https://github.com/yourname/shodan-black-hat
+git clone https://github.com/devkumarswipe/shodan-black-hat.git
 cd shodan-black-hat
 pip install -r requirements.txt
 ```
@@ -45,7 +45,7 @@ Before first use, obtain your [Shodan API Key](https://account.shodan.io) and ke
 Run the tool:
 
 ```bash
-python3 shodan-black-hat.py
+python3 blacked.py
 ```
 
 It will prompt:
@@ -63,25 +63,25 @@ Your key is saved to `apikey.json` and reused securely.
 #### 🔎 Search by Shodan query:
 
 ```bash
-python3 shodan-black-hat.py --query "apache" --limit 10
+python3 blacked.py --query "apache" --limit 10
 ```
 
 #### 🌐 Scan a website (auto IP resolve):
 
 ```bash
-python3 shodan-black-hat.py --url https://example.com
+python3 blacked.py --url https://example.com
 ```
 
 #### 🧽 Lookup direct IP:
 
 ```bash
-python3 shodan-black-hat.py --ip 1.2.3.4
+python3 blacked.py --ip 1.2.3.4
 ```
 
 #### 📄 Export to CSV:
 
 ```bash
-python3 shodan-black-hat.py --query nginx --csv
+python3 blacked.py --query nginx --csv
 ```
 
 ---
